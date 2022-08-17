@@ -4,7 +4,7 @@ This is a Serverless Framework plugin that aims to help developers be more produ
 
 It works by combining Serverless Framework lifecycle events - with the serverless hooks helper - and the [node-notifier](https://www.npmjs.com/package/node-notifier) NPM package.
 
-## Currently Supported Lifecycle events:
+## Currently Supported Lifecycle Events:
 
 - **initialize**: Runs on every `serverless` command
 
