@@ -7,8 +7,8 @@ class ServerlessCLINotifier {
     this.serviceName = serverless.service.service;
     this.command = serverless.processedInput.commands[0];
     this.hooks = {
-      'initialize': () => this.init(),
-      'after:deploy:deploy': () => this.afterDeploy(),
+      initialize: () => this.init(),
+      "after:deploy:deploy": () => this.afterDeploy(),
     };
   }
 
