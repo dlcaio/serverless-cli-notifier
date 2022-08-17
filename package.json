@@ -1,0 +1,22 @@
+{
+  "main": "index.js",
+  "devDependencies": {
+    "node-notifier": "10.0.1"
+  },
+  "dependencies": {},
+  "name": "serverless-cli-notifier",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "serverless",
+    "plugin",
+    "cli",
+    "notify",
+    "notifications"
+  ],
+  "author": "Caio Della Libera",
+  "license": "ISC",
+  "description": "A Serverless plugin to notify developers upon Serverless lifecycle events run on CLI."
+}
