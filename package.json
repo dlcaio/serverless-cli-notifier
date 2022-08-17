@@ -5,18 +5,24 @@
   },
   "dependencies": {},
   "name": "serverless-cli-notifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "serverless",
+    "serverless-framework",
     "plugin",
     "cli",
+    "alert",
     "notify",
     "notifications"
   ],
   "author": "Caio Della Libera",
   "license": "ISC",
-  "description": "A Serverless plugin to notify developers upon Serverless lifecycle events run on CLI."
+  "description": "A Serverless plugin to notify developers upon Serverless lifecycle events run on CLI.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlcaio/serverless-cli-notifier"
+  }
 }
